@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>About</title>
+<link rel="apple-touch-icon" sizes="180x180" href="icons\apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="icons\favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="icons\favicon-16x16.png">
+<link rel="manifest" href="icons\site.webmanifest">
+<link rel = "stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+<link rel = "stylesheet" href="css/style.css">
+<link rel = "stylesheet" href="css/style_about.css">
+</head>
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+<body>
+	<h1 id="top" style="margin-bottom:15px;margin-top:15px;">Freelancer's Community</h1>
+	<div class="menu-bar" class="*">
+		<ul>
+		<li><a href="freelancer.php">Home</a></li>
+		<li><a href="contracts.php">Contracts</a></li>
+		<li class='active'><div class="dropdown">
+		  <button class="dropbtn" style="font-size:18px;">About</button>
+		  <div class="dropdown-content">
+		    <a href="about.html">Website</a>
+		    <a href="#">Team</a>
+		  </div>
+		</div></li>
+		<li><a href="profile.php">Profile</a></li>
+		<div class="search">
+		<form action="#">
+		<input type="text" placeholder=" Search Contracts" name="search">
+		<button><i class="fa fa-search" style="font-size: 18px;"></i></button>
+		<div class="form-popup" id="myForm">
+		  <form action="/action_page.php" class="form-container">
+		    <h1 style="font-size: 27px; color:black;">Contact Us:</h1>
+		    <label for="fname" style="color:black; margin-left:15px;">Your email:</label><br>
+		    <input type="text" name="fname" value=" " style="margin-left:15px;"><br>
+		    <label for="fname" style="color:black; margin-left:15px;">Subject:</label><br>
+		    <input type="text" name="fname" value=" " style="margin-left:15px;"><br>
+		    <label for="fname" style="color:black; margin-left:15px;">Message:</label><br>
+		    <textarea rows="4" cols="28" style="margin-left:15px;"></textarea><br><br>
+		    <input type="submit" class="btn btn-success" value="Submit" style="margin-left:15px;">
+		    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+		  </form>
+		</div>
+		</form>
+		</div>
+		</ul>
+		</div>
+		<a href="#" class="float">
+		<i class="fa fa-phone my-float" class="open-button" onclick="openForm()"></i>
+		</a>
+	<div id="gap2" style="padding-top: 50px;">
+<h3 style="font-size: 32px; color: #002965"><b>The Freelancer's Community Team</b></h3>
+<p></p>
+<hr>
+<br>
+<div class="teams">
+  <div class="dp">
+    <img src="images/default.jpg" alt="Ram" width="200px" style="border: 5px solid #014872;
+    border-radius: 10px;">
+  </div>
+<div class="member">
+<h3 style="font-size: 32px;color: #002965"><b>Abiram Sudhakar</b></h3>
+<p>SE-CE-C<br>118A1002</p>
+</div></div>
+
+<div class="teams">
+  <div class="dp">
+    <img src="images/default.jpg" alt="Laxman" width="200px" style="border: 5px solid #014872;
+    border-radius: 10px;">
+  </div>
+<div class="member">
+<h3 style="font-size: 32px;color: #002965"><b>Amit Sabkale</b></h3>
+<p>SE-CE-D<br>118A1070</p>
+</div></div>
+
+
+<div class="teams">
+  <div class="dp">
+    <img src="images/default.jpg" alt="Bharat" width="200px" style="border: 5px solid #014872;
+    border-radius: 10px;">
+  </div>
+<div class="member">
+<h3 style="font-size: 32px;color: #002965"><b>Pritamsunder Idayakumar</b></h3>
+
+<p>SE-CE-D<br>118A1064</p>
+</div></div>
+
+
+<div class="teams">
+  <div class="dp">
+    <img src="images/default.jpg" alt="Shatrugan" width="200px" style="border: 5px solid #014872;
+    border-radius: 10px;">
+  </div>
+<div class="member">
+<h3 style="font-size: 32px;color: #002965"><b>Tejas Sawant</b></h3>
+
+<p>SE-CE-D<br>118A1075</p>
+</div></div>
+</div>
+</body>
+</html>
+<footer>
+  <p>&copy;2020, FreeLancer's Community</p>
+</footer>

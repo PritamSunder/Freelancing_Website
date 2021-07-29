@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Freelancer's Community</title>
+<link rel="apple-touch-icon" sizes="180x180" href="icons\apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="icons\favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="icons\favicon-16x16.png">
+<link rel="manifest" href="icons\site.webmanifest">
+<link rel = "stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+<link rel = "stylesheet" href="css/style.css">
+<link rel = "stylesheet" href="css/style_about.css">
+</head>
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+<body>
+	<h1 id="top" style="margin-bottom:15px;margin-top:15px;">Freelancer's Community</h1>
+	<div class="menu-bar" class="*">
+		<ul>
+		<li><a href="freelancer.php">Home</a></li>
+		<li><a href="contracts.php">Contracts</a></li>
+		<li class='active'><div class="dropdown">
+		  <button class="dropbtn" style="font-size:18px;">About</button>
+		  <div class="dropdown-content">
+		    <a href="#">Website</a>
+		    <a href="team.html">Team</a>
+		  </div>
+		</div></li>
+		<li><a href="profile.php">Profile</a></li>
+		<div class="search">
+		<form action="#">
+		<input type="text" placeholder=" Search Contracts" name="search">
+		<button><i class="fa fa-search" style="font-size: 18px;"></i></button>
+		<div class="form-popup" id="myForm">
+		  <form action="/action_page.php" class="form-container">
+		    <h1 style="font-size: 27px; color:black;">Contact Us:</h1>
+		    <label for="fname" style="color:black; margin-left:15px;">Your email:</label><br>
+		    <input type="text" name="fname" value=" " style="margin-left:15px;"><br>
+		    <label for="fname" style="color:black; margin-left:15px;">Subject:</label><br>
+		    <input type="text" name="fname" value=" " style="margin-left:15px;"><br>
+		    <label for="fname" style="color:black; margin-left:15px;">Message:</label><br>
+		    <textarea rows="4" cols="28" style="margin-left:15px;"></textarea><br><br>
+		    <input type="submit" class="btn btn-success" value="Submit" style="margin-left:15px;">
+		    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+		  </form>
+		</div>
+		</form>
+		</div>
+		</ul>
+		</div>
+		<a href="#" class="float">
+		<i class="fa fa-phone my-float" class="open-button" onclick="openForm()"></i>
+		</a>
+<div id="gap2">
+<div class="intro2">
+	<div class="quote2" style="padding-top: 30px;">
+		<p>Through our marketplace, employers can hire freelancers to do work in areas such as software development, writing, data entry and design right through to engineering, the sciences, sales and marketing, accounting and legal services. Or you can apply to be freelancer yourself and use your skills to complete projects of users and companies.</p>
+  </div>
+<div class="world">
+	<img src="images\world.png" alt="FreeLancer's Community" width="400px">
+</div>
+</div>
+<div class="jump">
+<div class="learn">
+<p style="font-size: 25px; padding-top:10px;">Learn how to:</p></div>
+<div class="op">
+<button type="button" class="btn btn-info" style="margin-right:50px; font-size: 25px"><a id ="whi" href="#hire">Hire a Freelancer</a></button>
+<button type="button" class="btn btn-info" style="font-size: 25px;"><a id ="whi" href="#work">Work as a Freelancer</a></button>
+</div></div>
+
+		<p style="padding-top: 50px;">Just give us the details about the work you need completed, and our freelancers will get it done faster, better, and cheaper than you could possibly imagine. This includes:
+		</p>
+</div>
+<section class="hire_steps">
+	<div class="flex-hire_steps">
+			<div>
+				<img src="images\work.png" alt="FreeLancer's Community" width="200px">
+				<p style="padding-top: 30px">Small jobs, large jobs, anything in between</p>
+			</div>
+			<div>
+				<img src="images\clock.png" alt="FreeLancer's Community" width="100px">
+				<p style="padding-top: 70px">Jobs that are on fixed price, or hourly terms</p>
+			</div>
+			<div>
+				<img src="images\skills.png" alt="FreeLancer's Community" width="120px">
+				<p style="padding-top: 45px">Work that requires specific skill sets, costs, or scheduling requirements</p>
+			</div>
+</section>
+<div id="gap2">
+	<h3 id="hire" style="padding-top: 50px; font-style: italic; color:#002965; font-size: 40px;">HOW DOES HIRING WORK?</h3>
+	<div class="how">
+	<div class="pic">
+	<img src="images\post.png" alt="Post" width="300px"></div>
+	<div class="step">
+	<h3>1: Post a project</h3>
+<p>It's always free to post your project. You'll automatically begin to receive bids from our freelancers. Alternatively, you can browse through the talent available on our site, and make a direct offer to a freelancer instead.</p>
+</div></div>
+<div class="how">
+<div class="pic">
+<img src="images\choose.png" alt="Post" width="300px"></div>
+<div class="step">
+<h3>2: Choose the perfect freelancer</h3>
+<ul1>
+	<li>Browse freelancer profiles</li>
+	<li>Chat in real-time</li>
+	<li>Compare proposals and select the best one</li>
+	<li>Award your project and your freelancer goes to work</li>
+</ul1></div></div>
+<div class="how">
+<div class="pic">
+<img src="images\pay.png" alt="Post" width="300px"></div>
+<div class="step">
+<h3>3: Pay when you are satisfied!</h3>
+<p>Make payments according to a schedule of goals you set, or pay only upon completion. You are in control, so you get to make decisions.</p>
+	<p>For any queries or assistance feel free to contact us</p>
+</div></div>
+<hr>
+<h3 id="work" style="padding-top: 100px; font-style: italic; color:#002965; font-size: 40px;">HOW TO WORK AS A FREELANCER?</h3>
+<div class="how">
+<div class="pic">
+<img src="images\profile.png" alt="Post" width="250px"></div>
+<div class="step" style="padding-left: 50px;">
+<h3 style="padding-top: 30px;">1: Set up your Profile</h3>
+<ul1>
+	<li>Select your skills and expertise</li>
+	<li>Upload a professional profile photo</li>
+	<li>Go through the Verification Center checklist</li>
+</ul1></div></div>
+<div class="how">
+<div class="pic">
+<img src="images\browse.png" alt="Post" width="300px"></div>
+<div class="step">
+<h3>2: Browse Jobs</h3>
+<p>We have jobs available for all skills. Maximize your job opportunities by optimizing your filters. Save your search and get alerted when relevant jobs are available.</p>
+</div></div>
+<div class="how">
+<div class="pic">
+<img src="images\write.png" alt="Post" width="300px"></div>
+<div class="step">
+<h3>3: Write your Best Bid</h3>
+<p>Put your best foot forward and write the best pitch possible. Read the project and let the clients know you understand their brief. Tell them why you're the best person for this job. Writing a new brief for each project is more effective than using the same one!</p>
+</div></div>
+<div class="how">
+<div class="pic">
+<img src="images\earn.png" alt="Post" width="300px"></div>
+<div class="step">
+<h3>4: Earn!</h3>
+<p>Get ready to work once you get hired. Deliver high quality work and earn the agreed amount.</p>
+</div></div>
+<br><br><br>
+<p><a href="#top">Click here</a> to go back to top</p>
+
+</div>
+
+</div>
+</body>
+</html>
+<footer>
+  <p>&copy;2020, FreeLancer's Community</p>
+</footer>

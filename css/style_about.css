@@ -1,0 +1,102 @@
+.hire_steps{
+  display:block;
+  margin-top: 15px;
+  height:350px;
+  background-image: linear-gradient(#00436B,#014872,#014872,#014872,#014872,#014872,#014872,#014872,#014872,#00436B);
+}
+.flex-hire_steps {
+  display: flex;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.flex-hire_steps > div {
+  width: 500px;
+  text-align: center;
+  line-height: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  line-height: 25px;
+  color: #DFECFF;
+}
+.intro{
+  display: inline-flex;
+  flex-wrap: wrap;
+  border: 100px;
+  height: 250px;
+  }
+  .intro .logo{
+    flex:1;
+    margin-top: 10px;
+    padding-left:50px;
+  }
+  .intro .quote{
+    flex:3;
+    margin-top: 50px;
+  }
+  .intro2{
+    display: inline-flex;
+    flex-wrap: wrap;
+    border: 100px;
+    height: 350px;
+    }
+    .intro2 .quote2{
+      flex:3;
+      margin-top: 50px;
+    }
+  .intro2 .world{
+    flex:2;
+  }
+  p{
+  font-size: 20px;
+  }
+  .how{
+    display: inline-flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    border: 100px;
+    height: 250px;
+    }
+    .how .pic{
+      flex:1;
+      margin-top: 10px;
+      padding-left:50px;
+    }
+    .how .step{
+      flex:3;
+      margin-left: 30px;
+      margin-top: 10px;
+    }
+    .jump{
+      display: inline-flex;
+      margin-top: 20px;
+      flex-wrap: wrap;
+      border: 100px;
+      height: 70px;
+      width:900px;
+      }
+      .jump .learn{
+        flex:2;
+        margin-top: 10px;
+        padding-left:50px;
+      }
+      .jump .op{
+        flex:8;
+        margin-left: 30px;
+        margin-top: 10px;
+      }
+      .teams{
+        display: inline-flex;
+        flex-wrap: wrap;
+        border: 100px;
+        height: 200px;
+        width:1200px;
+        margin-top: 50px;
+        }
+        .teams .member{
+          flex:4;
+          padding-left: 50px;
+        }
+      .teams .dp{
+        flex:1;
+      }

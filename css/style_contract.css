@@ -1,0 +1,71 @@
+body {
+  margin-left: 400px;
+  margin-right: 400px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(to right top, #014872, #2c728d, #609ba4, #9bc4bf, #d7ede1);
+}
+* {
+  box-sizing: border-box;
+}
+.registerbtn {
+  background-color: #00446D;
+  color: white;
+  padding: 16px 20px;
+  margin-left:110px;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+.container {
+  padding: 16px;
+  padding-bottom: 50px;
+  margin-bottom: 300px;
+  background-color: white;
+}
+
+.container1 {
+  padding: 16px;
+  padding-bottom: 50px;
+  margin-top:100px;
+  margin-bottom: 300px;
+  background-color: white;
+}
+input[type=number]{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+
+textarea{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+textarea::placeholder{
+  font-family: sans-serif;
+}
+
+
+input[type=number]:focus{
+  background-color: #ddd;
+  outline: none;
+}
+
+input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
